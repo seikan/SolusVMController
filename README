@@ -1,0 +1,14 @@
+SolusVMController is a PHP application to manage all your SolusVM based VMs under single interface.
+This application access your VPS using API provided by Soluslabs. Please make sure API access
+has been enabled for your VPS provider in order to use this application.
+
+Program features:
+
+- Add multiple VMs
+- Boot, reboot, and shutdown your VMs from one interface
+- Tag to organize VMs
+- Multiple users supported
+
+
+For bugs report or suggestions, please e-mail support[at]solusvmcontroller.com
+Twitter: http://twitter.com/svmcontroller

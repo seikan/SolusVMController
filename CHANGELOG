@@ -1,0 +1,75 @@
+v3.3 (27 Feb, 2013)
+- Added sorting in tag page
+- Fixed minor bugs
+
+
+v3.2 (26 Feb, 2013)
+- Added sorting in user and vm pages
+- Added tag search in vm page
+- Added virtualization field
+- Showing tags assigned a VM
+- Linked tag to associated VMs
+
+
+v3.1 (14 Dec, 2012)
+- Fixed some spelling issues
+- Added error handler
+- Added custom json_encode and json_decode function for PHP installation without json enabled
+- Showing all IP of the VM
+- Administrator can now able to access users account
+
+
+v3.0 (12 Dec, 2012)
+- Implemeted MySQL supports
+- Simplified interface
+- Added tag base supports
+- Multiple users supports
+
+
+v2.3 (08 May, 2011)
+- Enabled single server status check when pressing the status icon.
+- Added sorting on table headers to sort VPS by name, group, location and provider.
+
+
+v2.2 (22 Feb, 2011)
+- Added disk space, memory, and bandwidth usage bar.
+- Added version.php to control version number changes.
+
+
+v2.1 (23 Nov, 2010)
+- Added javascript to preload images when checking VPS status.
+- Fixed solusvm.class.php errors when accessing non-SolusVM host.
+
+
+v2.0 (20 Nov, 2010)
+- Added group & provider to categorise VPS.
+- Added new fields in VPS information: country, location, price, period, due date.
+- Added AJAX style status check to avoid timeout.
+- Minor changes on GUI with more icons.
+- Added multi languages support: English, Chinese Simplified, Chinese Traditional.
+
+
+v1.21 (06 Nov, 2010)
+- Added SolusVMController logo.
+- Changed slogan to "All VPSes under one roof".
+- Fixed issue with protocol not auto selected during edit VPS.
+- Added configuration.php.default to handle problem from exising installation.
+- Updated installation instructions.
+
+
+v1.2 (01 Nov, 2010)
+- Updated CSS to make forms look more visible.
+- Fixed security issue with cross-side scripting.
+- Added handler to prevent invalid input for protocol field.
+- Added cURL and socket supports when querying SolusVM API.
+- Minor changes on layout.
+
+
+v1.1 (31 Oct, 2010)
+- A small bug in the code was fixed. The inital code only worked with SVM hosts that used https connections.
+  This is now fixed and aditional fields were added to input the protocol.
+  This was fixed by Gayan.
+
+
+v1.0 (30 Oct, 2010)
+- First public release

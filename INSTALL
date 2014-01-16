@@ -1,0 +1,4 @@
+1. Upload all files and folders inside solusvmcontroller folder to you server.
+2. Rename configuration.php.default to configuration.php (Please skip this step if your are upgrade from existing installation)
+3. Change the file permission of configuration.php to writable. (chmod:777)
+4. Access SolusVMController from your browser. E.g. http://yourdomain.com/solusvmcontroller/
